@@ -6,6 +6,13 @@
     <title>Página inicial</title>
 </head>
 <body>
+    <h1>Página Home</h1>
+<a href="logout.php">Sair</a>
+<br>
+<a href="index2.php">Ver Pedidos</a>
+<br>
+<a href="pedidos_ad">Ver Pedidos Adiados</a>
+<br>
 <?php
 
 ?>

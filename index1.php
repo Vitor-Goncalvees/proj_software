@@ -4,7 +4,10 @@
     <title>CRUD de CLIENTES</title>
 </head>
 <body>
+    <a href="home.php">HOME</a>
+    <br>
     <h1>Lista de Clientes</h1>
+    <br>
     <a href="cadastroclie.php">Adicionar Novo Cliente</a>
     <?php
         require ('conexao.php');

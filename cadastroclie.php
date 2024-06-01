@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<?php require ("conexao.php"); ?>
+<?php 
+    require ("conexao.php"); ?>
 
 <div class="container">
     <h2>CADASTRO DE CLIENTES</h2>
@@ -21,6 +23,10 @@
         <input type="email" class="form-control" name="email" placeholder="Informe o seu email">
         <label>Telefone</label>
         <input type="tel" class="form-control" name="telefone" placeholder="Informe o seu Telefone">
+        <label>Usuário</label>
+        <input type="text" class="form-control" name="usuario" placeholder="Informe o seu usuário">
+        <label>Senha</label>
+        <input type="password" class="form-control" name="senha" placeholder="Informe a sua senha">
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
